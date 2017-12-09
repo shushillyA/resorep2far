@@ -18,20 +18,17 @@ namespace resorep2far
             if (args.Length != 0)
             {
                 string folderPath = args[0];
-                /*FolderBrowserDialog fbd = new FolderBrowserDialog();
-                if(fbd.ShowDialog() == DialogResult.OK)
-                {
-
-                }*/
-                InitKeys();
                 int count = 0;
+                
+                InitKeys();
+                
                 foreach (string key in resoToFAR.Keys)
                 {
                     string ddsFile = Path.Combine(folderPath, key);
                     if (File.Exists(ddsFile))
                     {
                         Microsoft.VisualBasic.FileIO.FileSystem.RenameFile(ddsFile, resoToFAR[key]);
-                        Console.WriteLine(ddsFile + "<->" + resoToFAR[key]);
+                        Console.WriteLine(string.Format("{0} <-> {1}", ddsFile, resoToFAR[key]));
                         count++;
                     }
                 }
