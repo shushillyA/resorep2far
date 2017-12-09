@@ -1,0 +1,6 @@
+E:\My Projects\Mods\NierAutomata\tools\resorep2far\resorep2far\bin\Debug\resorep2far.exe
+E:\My Projects\Mods\NierAutomata\tools\resorep2far\resorep2far\bin\Debug\resorep2far.pdb
+E:\My Projects\Mods\NierAutomata\tools\resorep2far\resorep2far\obj\Debug\resorep2far.csprojResolveAssemblyReference.cache
+E:\My Projects\Mods\NierAutomata\tools\resorep2far\resorep2far\obj\Debug\resorep2far.csproj.CoreCompileInputs.cache
+E:\My Projects\Mods\NierAutomata\tools\resorep2far\resorep2far\obj\Debug\resorep2far.exe
+E:\My Projects\Mods\NierAutomata\tools\resorep2far\resorep2far\obj\Debug\resorep2far.pdb
